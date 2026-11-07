@@ -1,6 +1,6 @@
 # Outcome-First Agent Loop — Submission
 
-**Name:** Anvarsha K · **Date:** [DATE OF SUBMISSION] · **Hours actually spent (be honest):** 8–9 hours · **Language / storage:** Python 3.12 / SQLite (WAL), no new dependencies
+**Name:** Anvarsha K · **Date:** 2026-11-07 · **Hours actually spent (be honest):** 8–9 hours · **Language / storage:** Python 3.12 / SQLite (WAL), no new dependencies
 
 **To run it:** `pip install -r requirements.txt`, start a simulator, then `./run.sh <SIM_URL>`. Debugging, alerts and "something is wrong" steps are in [docs/RUNBOOK.md](docs/RUNBOOK.md). Design: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Schema: [docs/DATABASE.md](docs/DATABASE.md). Tests: [docs/TESTING.md](docs/TESTING.md). Evidence: [reports/](reports/).
 
