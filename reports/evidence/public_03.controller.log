@@ -1,0 +1,7 @@
+2026-11-07 10:46:08,172 INFO controller.loop startup ingest: 23 chunks, 5537379 events, 119.8s
+2026-11-07 10:46:52,028 INFO controller.loop D1 done: wall 164s, peak rss 252 MB, db 181 MB
+2026-11-07 10:47:41,977 INFO controller.loop D2 done: wall 214s, peak rss 255 MB, db 284 MB
+2026-11-07 10:48:31,203 INFO controller.loop D3 done: wall 263s, peak rss 258 MB, db 386 MB
+2026-11-07 10:49:18,843 INFO controller.loop D4 done: wall 310s, peak rss 259 MB, db 488 MB
+2026-11-07 10:50:06,437 INFO controller.loop D5 done: wall 358s, peak rss 261 MB, db 589 MB
+2026-11-07 10:50:06,453 INFO controller.loop finished: wall 358s, credits left 400.0, db C:\Users\TURTLE\Downloads\sde-assignment-2026\state\public_03\public_03_load.db

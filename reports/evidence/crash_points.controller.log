@@ -1,0 +1,28 @@
+2026-11-07 10:41:39,571 INFO controller.loop startup ingest: 1 chunks, 187274 events, 2.5s
+2026-11-07 10:41:41,070 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:41,077 WARNING controller.loop restarted at minute 0; reconciled {'submissions': 0, 'applies': 0, 'autos': 1, 'pending_checked': 0}
+2026-11-07 10:41:42,187 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:42,196 WARNING controller.loop restarted at minute 0; reconciled {'submissions': 0, 'applies': 0, 'autos': 1, 'pending_checked': 0}
+2026-11-07 10:41:43,313 INFO controller.loop startup ingest: 1 chunks, 1 events, 0.0s
+2026-11-07 10:41:43,318 WARNING controller.loop restarted at minute 15; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:41:44,439 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:44,439 WARNING controller.loop restarted at minute 30; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:41:46,299 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:46,299 WARNING controller.loop restarted at minute 600; reconciled {'submissions': 1, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:41:47,425 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:47,442 WARNING controller.loop restarted at minute 600; reconciled {'submissions': 1, 'applies': 0, 'autos': 0, 'pending_checked': 1}
+2026-11-07 10:41:49,143 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:49,143 WARNING controller.loop restarted at minute 795; reconciled {'submissions': 0, 'applies': 1, 'autos': 0, 'pending_checked': 1}
+2026-11-07 10:41:50,228 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:50,228 WARNING controller.loop restarted at minute 795; reconciled {'submissions': 0, 'applies': 1, 'autos': 0, 'pending_checked': 1}
+2026-11-07 10:41:51,896 INFO controller.loop D1 done: wall 2s, peak rss 45 MB, db 9 MB
+2026-11-07 10:41:54,545 INFO controller.loop D2 done: wall 4s, peak rss 47 MB, db 10 MB
+2026-11-07 10:41:57,595 INFO controller.loop D3 done: wall 7s, peak rss 50 MB, db 12 MB
+2026-11-07 10:42:00,904 INFO controller.loop D4 done: wall 11s, peak rss 53 MB, db 14 MB
+2026-11-07 10:42:04,319 INFO controller.loop D5 done: wall 14s, peak rss 57 MB, db 16 MB
+2026-11-07 10:42:07,740 INFO controller.loop D6 done: wall 18s, peak rss 60 MB, db 18 MB
+2026-11-07 10:42:10,910 INFO controller.loop D7 done: wall 21s, peak rss 62 MB, db 19 MB
+2026-11-07 10:42:14,146 INFO controller.loop D8 done: wall 24s, peak rss 65 MB, db 21 MB
+2026-11-07 10:42:17,582 INFO controller.loop D9 done: wall 27s, peak rss 68 MB, db 23 MB
+2026-11-07 10:42:20,885 INFO controller.loop D10 done: wall 31s, peak rss 71 MB, db 24 MB
+2026-11-07 10:42:20,885 INFO controller.loop finished: wall 31s, credits left 196.0, db C:\Users\TURTLE\Downloads\sde-assignment-2026\state\crash_points\public_02_incidents.db

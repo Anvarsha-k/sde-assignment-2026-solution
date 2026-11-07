@@ -1,0 +1,31 @@
+ks_cancel v8 applied D3 15:15  actor=controller_approved  changed=["prompt_version"]
+
+PROPOSAL ks_cancel-p0007 via approval  approval_id=apr_00008
+  who approved: client approver, recorded as apr_00008 (the API does not expose a name)
+  summary: Replace prompt P2 with P1: hallucination flags at 4.5%, normal is 1.4% (current prompt was set by a supervisor edit, v6)
+  rationale: NOTE: this replaces a prompt a supervisor set in v6 (D3 11:45). It is proposed only because of the safety incident below, and takes effect only if approved. Population-level spike (z=4.17, 247 connected calls). Last prompt with a good record on this workflow; validation pass rate 0.985 on n=400. Engagement is checked after applying, with automatic follow-up.
+  impact score: 0.8  affected leads: 1500
+  diff: {"prompt_version": {"from": "P2", "to": "P1"}}
+  dry run: {"21": {"n": 400, "note": "Measures safety only, not engagement.", "pass_rate": 0.985, "run_id": "val_00001", "type": "validation_run"}}
+
+LIFECYCLE
+  D3 13:45  new -> draft  
+  D3 13:45  draft -> pending  apr_00008
+  D3 15:15  pending -> approved  []
+  D3 15:15  approved -> applying  
+  D3 15:15  applying -> applied  v8
+
+EVIDENCE (decisions linked to the items in this proposal)
+  item 21 from incident:2: Replace prompt P2 with P1: hallucination flags at 4.5%, normal is 1.4% (current prompt was set by a supervisor edit, v6)
+    D3 15:15 fix_applied: Fix live in v8; verifying on live calls.
+    D3 13:45 incident_detected: Hallucination flags on P2 at 4.5% vs baseline 1.4% over 247 connected calls.
+      data: {"baseline":0.0137,"connected":247,"engagement_before":0.5069,"flagged":11,"prompt":"P2","prompt_recently_changed":true,"rate":0.0445,"threshold_z":3.5,"window_hours":6,"z":4.17}
+
+WHAT HAPPENED NEXT
+  24h before: {'dials': 4800, 'pickup': 0.246, 'engagement': 0.4886, 'flag_rate': 0.0237}
+  24h after:  {'dials': 4800, 'pickup': 0.2667, 'engagement': 0.4906, 'flag_rate': 0.0164}
+  D3 18:00 incident_resolved: Fix verified: flags normal and engagement held on P1.
+  D4 10:00 schedule_verified: Call-time change verified over 2 days.
+  D4 16:00 winner_promoted: Promoted in v9, keeping a holdout to detect decay.
+  D7 10:00 decay_detected: caller_id: ['D3'] decayed; rolling back.
+  D7 11:45 rollback_applied: Rolled back in v10.

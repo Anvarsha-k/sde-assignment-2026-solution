@@ -1,0 +1,26 @@
+2026-11-07 10:40:46,617 INFO controller.loop startup ingest: 1 chunks, 187274 events, 2.5s
+2026-11-07 10:40:50,353 INFO controller.loop startup ingest: 1 chunks, 225 events, 0.0s
+2026-11-07 10:40:50,354 WARNING controller.loop restarted at minute 1185; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:40:50,738 INFO controller.loop D1 done: wall 0s, peak rss 43 MB, db 5 MB
+2026-11-07 10:40:53,372 INFO controller.loop D2 done: wall 3s, peak rss 46 MB, db 10 MB
+2026-11-07 10:40:56,043 INFO controller.loop startup ingest: 1 chunks, 225 events, 0.0s
+2026-11-07 10:40:56,043 WARNING controller.loop restarted at minute 3720; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:40:57,427 INFO controller.loop D3 done: wall 1s, peak rss 44 MB, db 11 MB
+2026-11-07 10:41:00,747 INFO controller.loop startup ingest: 1 chunks, 225 events, 0.0s
+2026-11-07 10:41:00,747 WARNING controller.loop restarted at minute 5310; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:41:01,731 INFO controller.loop D4 done: wall 1s, peak rss 44 MB, db 12 MB
+2026-11-07 10:41:03,516 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:03,532 WARNING controller.loop restarted at minute 6360; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:41:06,252 INFO controller.loop D5 done: wall 3s, peak rss 47 MB, db 15 MB
+2026-11-07 10:41:10,372 INFO controller.loop startup ingest: 1 chunks, 225 events, 0.0s
+2026-11-07 10:41:10,372 WARNING controller.loop restarted at minute 8400; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:41:10,747 INFO controller.loop D6 done: wall 0s, peak rss 43 MB, db 14 MB
+2026-11-07 10:41:13,895 INFO controller.loop D7 done: wall 4s, peak rss 49 MB, db 18 MB
+2026-11-07 10:41:17,342 INFO controller.loop startup ingest: 0 chunks, 0 events, 0.0s
+2026-11-07 10:41:17,342 WARNING controller.loop restarted at minute 11055; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:41:18,449 INFO controller.loop D8 done: wall 1s, peak rss 43 MB, db 19 MB
+2026-11-07 10:41:22,262 INFO controller.loop startup ingest: 1 chunks, 225 events, 0.0s
+2026-11-07 10:41:22,262 WARNING controller.loop restarted at minute 12690; reconciled {'submissions': 0, 'applies': 0, 'autos': 0, 'pending_checked': 0}
+2026-11-07 10:41:22,711 INFO controller.loop D9 done: wall 0s, peak rss 43 MB, db 19 MB
+2026-11-07 10:41:25,765 INFO controller.loop D10 done: wall 4s, peak rss 49 MB, db 24 MB
+2026-11-07 10:41:25,765 INFO controller.loop finished: wall 4s, credits left 196.0, db C:\Users\TURTLE\Downloads\sde-assignment-2026\state\crash_random\public_02_incidents.db

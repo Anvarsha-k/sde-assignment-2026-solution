@@ -1,0 +1,11 @@
+4000 runs each; 3 challengers, 200 trials per arm per day, base rate 0.54, up to 7 daily looks
+
+Without correcting for daily looks (for comparison):
+  A/A false-winner rate 0.102
+
+| one-sided alpha | A/A false-winner rate | power at +5 pts | power at +8 pts | power at +12 pts | mean day of win at +8 |
+|---|---|---|---|---|---|
+| 0.01 | 0.002 | 0.34 | 0.92 | 1.00 | 3.9 |
+| 0.05 | 0.025 | 0.64 | 0.99 | 1.00 | 3.1 |
+| 0.10 | 0.061 | 0.77 | 0.99 | 1.00 | 2.7 |
+| 0.20 | 0.165 | 0.90 | 1.00 | 1.00 | 2.4 |

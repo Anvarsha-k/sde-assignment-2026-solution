@@ -1,0 +1,53 @@
+{
+ "name": "crash_random",
+ "exit_code": 0,
+ "wall_s": 51.4,
+ "finished": true,
+ "credits_remaining": 196.0,
+ "kills": [
+  {
+   "at_wall_s": 8.7,
+   "sim_minute": 0
+  },
+  {
+   "at_wall_s": 14.8,
+   "sim_minute": 1185
+  },
+  {
+   "at_wall_s": 20.6,
+   "sim_minute": 3720
+  },
+  {
+   "at_wall_s": 25.3,
+   "sim_minute": 5310
+  },
+  {
+   "at_wall_s": 28.1,
+   "sim_minute": 6360
+  },
+  {
+   "at_wall_s": 34.9,
+   "sim_minute": 8400
+  },
+  {
+   "at_wall_s": 41.9,
+   "sim_minute": 11055
+  },
+  {
+   "at_wall_s": 46.8,
+   "sim_minute": 12690
+  }
+ ],
+ "audit": {
+  "approvals_applied_twice": [],
+  "config_versions_differ_from_simulator": [],
+  "applied_config_with_no_local_proposal": [],
+  "approvals_lost_or_out_of_step": [],
+  "unfinished_intents": 0,
+  "events_behind_simulator": 0,
+  "cube_dials_minus_call_log_rows": 0,
+  "recoveries_recorded": 7,
+  "passed": true
+ }
+}
+report: reports/evidence/crash_random.grade.md

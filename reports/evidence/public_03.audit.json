@@ -1,0 +1,20 @@
+{
+ "name": "public_03",
+ "exit_code": 0,
+ "wall_s": 459.9,
+ "finished": true,
+ "credits_remaining": 400.0,
+ "kills": [],
+ "audit": {
+  "approvals_applied_twice": [],
+  "config_versions_differ_from_simulator": [],
+  "applied_config_with_no_local_proposal": [],
+  "approvals_lost_or_out_of_step": [],
+  "unfinished_intents": 0,
+  "events_behind_simulator": 0,
+  "cube_dials_minus_call_log_rows": 0,
+  "recoveries_recorded": 0,
+  "passed": true
+ }
+}
+report: reports/evidence/public_03.grade.md
